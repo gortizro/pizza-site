@@ -822,3 +822,57 @@ section {
         font-size: 2rem;
     }
 }
+
+/* Deixar o menu centralizado e organizado */
+.header section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Reduzir o tamanho do logo */
+.header .logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Organizar o campo de busca */
+.search-box {
+    margin-top: 1rem;
+    width: 80%;
+    max-width: 300px;
+}
+
+/* Colocar os ícones lado a lado na parte inferior ou superior */
+.icons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* Melhorar a seção Sobre Nós */
+.about .row {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about .row .image img {
+    width: 90%;
+    max-width: 400px;
+}
+
+.about .row .content {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.about .row .content h3 {
+    font-size: 2.5rem;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
